@@ -1,0 +1,47 @@
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.nav_panel {
+    overflow: hidden;
+
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 600px;
+}
+
+.nav_panel a {
+    float: left;
+    background-color: rgb(117, 216, 239);
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav_panel a:hover {
+    background-color: rgb(33, 128, 150);
+    color: black;
+}
+
+.nav_panel a.active {
+    background-color: rgb(9, 51, 61);
+    color: white;
+}
+
+.block {
+    padding-top: 25px;
+}
+
+H1,
+H3 {
+    color: rgb(17, 61, 137);
+}
+
+LI A {
+    text-decoration: none;
+}
